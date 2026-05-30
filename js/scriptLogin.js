@@ -49,6 +49,6 @@ loginForm.addEventListener('submit', function(event) {
         // מציגים הודעת הצלחה (בשלב זה אין חיבור לשרת אמיתי)
         alert('Login successful! Welcome back.');
         // אפשר גם לאפס את הטופס אם רוצים
-        loginForm.reset();
+        window.location.href = 'index.html';
     }
 });

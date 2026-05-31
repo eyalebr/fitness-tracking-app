@@ -37,7 +37,7 @@ body {
     display: flex;
     align-items: center;
     gap: 25px;
-    margin-top: 60px; /* מוריד את הכותרת קצת למטה */
+    margin-top: 60px; 
 }
 
 .small-logo {
@@ -155,7 +155,7 @@ body {
     display: flex;
     align-items: center;
     gap: 6px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* צל לכפתור עצמו */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); 
 }
 
 /* --- תפריט תחתון --- */
@@ -167,7 +167,7 @@ body {
     background-color: #ffffff;
     padding: 15px 0 20px 0;
     border-top: 1px solid #f0f0f0;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.03); /* הצל הועבר לכאן, עוטף את כל התפריט מלמעלה */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.03); 
 }
 
 .nav-item {
@@ -181,7 +181,7 @@ body {
     font-weight: 500;
     flex: 1;
     background-color: transparent;
-    box-shadow: none; /* מוודא שאין צל סביב האייקון עצמו */
+    box-shadow: none; 
     border-radius: 0;
 }
 
@@ -191,6 +191,6 @@ body {
 }
 
 .nav-icon {
-    font-size: 40px; /* השארתי את הגודל שבחרת */
+    font-size: 40px; 
     margin-bottom: 5px;
 }
